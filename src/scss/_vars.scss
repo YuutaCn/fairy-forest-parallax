@@ -1,0 +1,17 @@
+// colors
+:root {
+  // base
+  --font-family: "raleway_f", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --shadow: #9e7d35;
+  --text: #E7e6e0;
+
+
+  // font
+  --index: calc(1vw + 1vh);
+  --default-cubic: transform 700ms cubic-bezier(.075, 0.5, 0, 1);
+}
